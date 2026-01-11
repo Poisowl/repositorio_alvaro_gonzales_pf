@@ -26,21 +26,22 @@ public class PracticaFinal {
         System.out.println("Ingrese el nombre del cliente:");
         cliente = lectura.next();
         
-        System.out.println("Ingrese el monto de la compra uno:");
+        System.out.println("Monto de la compra uno:");
         compra1 = lectura.nextDouble();
         
-        System.out.println("Ingrese el monto de la compra dos:");
+        System.out.println("Monto de la compra dos:");
         compra2 = lectura.nextDouble();
         
-        System.out.println("Ingrese el monto de la compra tres:");
+        System.out.println("Monto de la compra tres:");
         compra3 = lectura.nextDouble();
         
         total = compra1 + compra2 + compra3;
         promedio = total/3;
         
-        System.out.println("Nombre del cliente:" + cliente);
-        System.out.println("Total de la compra:" + total);
-        System.out.println("Promedio de la compra:" + promedio);
+        System.out.println("Informacion");
+        System.out.println("Cliente:" + cliente);
+        System.out.println("Total:" + total);
+        System.out.println("Promedio:" + promedio);
     }
     
 }
